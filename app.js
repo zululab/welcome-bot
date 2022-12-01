@@ -173,7 +173,7 @@ const newUserScene = new Scenes.WizardScene('newUserScene',
                 ctx.telegram.sendMessage(ctx.chat.id , groupRules , {
                     reply_markup: {
                         inline_keyboard: [
-                            [{text: "I am agree", callback_data: "tos_agree"}]
+                            [{text: "I agree", callback_data: "tos_agree"}]
                         ]
                     }
                 })
