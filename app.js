@@ -18,7 +18,7 @@ const bot = new Telegraf('5828718842:AAEK9cJy3gvdofKg8ozSHHSqf7tOTspkXnQ')
 
 
 // mongoose connect
-mongoose.connect("mongodb+srv://rasedul20:rasedul20@telegrambot.9mrl3p4.mongodb.net/escrowbot?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://rasedul20:rasedul20@telegrambot.9mrl3p4.mongodb.net/onboard_bot?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
