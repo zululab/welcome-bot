@@ -14,7 +14,7 @@ const user = require('./schema/userSchema')
 const app = express()
 
 // telegraf init 5488413860:AAFbGwuOncngkJO24IJNpuKD3eq4VzyjiHE
-const bot = new Telegraf('5601540755:AAGHIr4Kb9tpPFCas_OX-A6a_aSInIDopfM')
+const bot = new Telegraf('5488413860:AAFbGwuOncngkJO24IJNpuKD3eq4VzyjiHE')
 
 
 // mongoose connect
